@@ -17,4 +17,4 @@ jobs:
           # password: ${{ secrets.PASSWORD }} # Optional: Password for authentication (use secrets!)
           # auth_context: # Optional: Stringified JSON object for complex authentication
           # skip_copilot_assignment: false # Optional: Set to true to skip assigning issues to GitHub Copilot (or if you don't have GitHub Copilot)
-          include_screenshots: true # Optional: Set to true to capture screenshots and include links to them in filed issues
+          # include_screenshots: false # Optional: Set to true to capture screenshots and include links to them in filed issues
