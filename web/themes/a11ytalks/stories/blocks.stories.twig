@@ -7,6 +7,20 @@
       site_logo: "https://a11ytalks.com/photo.png",
       site_slogan: "Virtual meet-up featuring speakers & conversations around digital accessibility",
       front: "#",
+      is_front: false,
+    }
+  } %}
+    {% include "a11ytalks:site-branding" %}
+  {% endstory %}
+
+  {% story blocks_branding_front with {
+    name: "Branding (Front Page)",
+    args: {
+      site_name: "A11yTalks",
+      site_logo: "https://a11ytalks.com/photo.png",
+      site_slogan: "Virtual meet-up featuring speakers & conversations around digital accessibility",
+      front: "#",
+      is_front: true,
     }
   } %}
     {% include "a11ytalks:site-branding" %}
