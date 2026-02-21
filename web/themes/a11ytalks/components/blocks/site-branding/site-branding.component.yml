@@ -26,3 +26,8 @@ props:
       title: Site Name
       description: 'default: "A11ytalks"'
       default: A11ytalks
+    is_front:
+      type: boolean
+      title: Is Front Page
+      description: 'Whether the current page is the front page. When true, site name renders as an h1 heading.'
+      default: false
